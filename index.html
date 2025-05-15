@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Johann's Calculator without using Eval(n)</h1>
+  <div class="calculator-container">
+    <div id="calculator-display"></div>
+    <div id="keys">
+      <button onclick="selectedNumber('AC')" class="key miscellaneous-button-style">AC</button>
+      <button onclick="selectedNumber('⌫')" class="key miscellaneous-button-style">⌫</button>
+      <button onclick="selectedNumber('%⇒')" class="key miscellaneous-button-style">%</button>
+      <button onclick="selectedNumber('÷')" class="key operation-button-style">÷</button>
+      <button onclick="selectedNumber('7')" class="key number-button-style">7</button>
+      <button onclick="selectedNumber('8')" class="key number-button-style">8</button>
+      <button onclick="selectedNumber('9')" class="key number-button-style">9</button>
+      <button onclick="selectedNumber('×')" class="key operation-button-style">×</button>
+      <button onclick="selectedNumber('4')" class="key number-button-style">4</button>
+      <button onclick="selectedNumber('5')" class="key number-button-style">5</button>
+      <button onclick="selectedNumber('6')" class="key number-button-style">6</button>
+      <button onclick="selectedNumber('-')" class="key operation-button-style">-</button>
+      <button onclick="selectedNumber('1')" class="key number-button-style">1</button>
+      <button onclick="selectedNumber('2')" class="key number-button-style">2</button>
+      <button onclick="selectedNumber('3')" class="key number-button-style">3</button>
+      <button onclick="selectedNumber('+')" class="key operation-button-style">+</button>
+      <button onclick="selectedNumber('+/-')" class="key number-button-style">+/-</button>
+      <button onclick="selectedNumber('0')" class="key number-button-style">0</button>
+      <button onclick="selectedNumber('.')" class="key number-button-style">.</button>
+      <button onclick="selectedNumber('=')" class="key operation-button-style">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
